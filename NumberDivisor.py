@@ -25,5 +25,6 @@ def calcularDivisores (a):
             None
 
     print(divisores)
+    return None
 
 calcularDivisores (a)
