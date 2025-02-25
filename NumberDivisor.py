@@ -2,7 +2,8 @@ x = 9.8
 a = 0
 def calcularDivisores (a):
 
-    a = int(input("Numero: "))
+    print("programa para encontrar los divisores de un numero")
+    a = int(input("Introduce un numero: "))
     
     numbers = []
     b = 0
