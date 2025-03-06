@@ -6,6 +6,11 @@ video = cv2.VideoCapture(0)
 
 while True:
     check, frame = video.read()
+
+    if not check or frame is None:
+        print("¡Error al capturar el frame!")
+        break
+
     print(check)
     print(frame)
     
