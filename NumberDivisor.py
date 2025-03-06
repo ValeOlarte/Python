@@ -1,5 +1,5 @@
-x = 9.8
 a = 0
+
 def calcularDivisores (a):
 
     print("programa para encontrar los divisores de un numero")
@@ -25,6 +25,6 @@ def calcularDivisores (a):
             None
 
     print(divisores)
-    return None
+    
 
 calcularDivisores (a)
