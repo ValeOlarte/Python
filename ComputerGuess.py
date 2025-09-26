@@ -1,8 +1,5 @@
-import random
-import time
-
-a = 1
-b = 100
+a = 0
+b = 101
 userNumber = 0
 
 def guessNumber (a, b):
@@ -21,7 +18,7 @@ def guessNumber (a, b):
     while True:
         
         intentos = intentos + 1
-        randomNumber = random.randint(a, b)
+        randomNumber = round((a + b)/2)
         
         if randomNumber == userNumber:
             print ("el numero fue: ")
